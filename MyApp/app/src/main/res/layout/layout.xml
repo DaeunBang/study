@@ -10,22 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.bangdaewoon.myapp.MainActivity">
 
-        <Button
-            android:id="@+id/startBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Toast"/>
-
-        <Button
-            android:id="@+id/start2Btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Naver접속"/>
-
-        <Button
-            android:id="@+id/start3Btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CALL"/>
+    <Button
+        android:id="@+id/backtBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"/>
 
 </LinearLayout>
