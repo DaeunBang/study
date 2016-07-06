@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textSize="43dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/emailInput"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:hint="E-MAIL"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/idInput"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/emailInput"
+        android:hint="ID"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/passwordInput"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/idInput"
+        android:hint="PASSWORD"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/signupBtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/passwordInput"
+        android:text="Sign Up"/>
+</RelativeLayout>
